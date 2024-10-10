@@ -11,6 +11,7 @@ namespace genius_name.DB
         }
 
         public DbSet<Passport> Passports { get; set; }
+        public DbSet<Snils> Snilses { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -10,7 +10,7 @@
         public string Birthplace { get; set; }
         public DateTime DataGetPassport { get; set; }
         public  string Organization { get; set; }
-        public int Serial {  get; set; }
+        public string Serial {  get; set; }
         public int Number { get; set; }
         public string Gender { get; set; }
     }

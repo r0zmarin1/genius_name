@@ -1,4 +1,7 @@
 
+using genius_name.Model;
+using genius_name.Tools;
+
 namespace genius_name
 {
     public class Program
@@ -13,6 +16,7 @@ namespace genius_name
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddScoped<ValidateSnils>();
             builder.Services.AddDbContext<DB.DB>();
 
             var app = builder.Build();
