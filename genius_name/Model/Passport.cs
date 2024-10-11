@@ -12,6 +12,6 @@
         public  string Organization { get; set; }
         public string Serial {  get; set; }
         public int Number { get; set; }
-        public string Gender { get; set; }
+        public bool Gender { get; set; }
     }
 }

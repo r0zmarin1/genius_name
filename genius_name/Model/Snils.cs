@@ -9,7 +9,7 @@
         public string PatronymicName { get; set; }
         public DateTime Birthday { get; set; }
         public string Birthplace { get; set; }
-        public string Gender { get; set; }
+        public bool Gender { get; set; }
         public DateTime DataGetSnils { get; set; }
 
     }
